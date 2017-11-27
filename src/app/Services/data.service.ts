@@ -9,8 +9,16 @@ export class DataService {
     console.log("Data Service Connected")
    }
 
+
+   //Searching movies
    getData(movieName){
-     return this.http.get('https://api.themoviedb.org/3/search/movie?api_key=7e8f60e325cd06e164799af1e317d7a7&language=en-US&page=1&include_adult=false&query='+movieName)
+     return this.http.get('https://api.themoviedb.org/3/search/movie?api_key=0f3777cf29d8eabbf19ac03e1725e29c&language=en-US&page=1&include_adult=false&query='+movieName)
+     .map(res=>res.json());
+   }
+
+   //Get movie by Id
+   getMovieById(movieId){
+     return this.http.get('https://api.themoviedb.org/3/movie/'+movieId+'?api_key=0f3777cf29d8eabbf19ac03e1725e29c&language=en-US')
      .map(res=>res.json());
    }
 
