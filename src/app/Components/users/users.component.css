@@ -1,0 +1,76 @@
+.searchButton{position:fixed; bottom:0;width: 100%;}
+
+
+.widget .widget-title {
+    border-radius: 6px 6px 0px 0px;
+    padding: 12px 20px;
+    margin: 0px;
+}
+
+
+.widget .widget-controls {
+    float: right;
+    margin-right: -5px;
+}
+
+.glossed .widget-blue .widget-title {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #217dbb;
+    border-bottom: 1px solid #196090;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3498db), to(#258cd1));
+    background-image: -webkit-linear-gradient(top, #3498db, 0%, #258cd1, 100%);
+    background-image: -moz-linear-gradient(top, #3498db 0%, #258cd1 100%);
+    background-image: linear-gradient(to bottom, #3498db 0%, #258cd1 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3498db', endColorstr='#ff258cd1', GradientType=0);
+}
+
+.glossed .widget .widget-title {
+    /* border-radius: 6px 6px 0px 0px; */
+    /* -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255,255,255,0.3), 0px 2px 2px 0px rgba(0,0,0,0.2); */
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255,255,255,0.3), 0px 2px 2px 0px rgba(0,0,0,0.2);
+    /* box-shadow: inset 0px 1px 2px 0px rgba(255,255,255,0.3), 0px 2px 2px 0px rgba(0,0,0,0.2); */
+    /* position: relative; */
+    /* padding: 10px 20px; */
+}
+
+.modal-content .widget .widget-title {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.widget-blue .widget-title {
+    background-color: #3498db;
+}
+
+.widget .widget-title {
+    border-radius: 6px 6px 0px 0px;
+    padding: 12px 20px;
+    margin: 0px;
+}
+
+*, *:before, *:after {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttonStrip {
+    width: 100%;
+    float: right!important;
+    text-align: right!important;
+    margin: 20px 15px 0 0!important;
+    padding: 0!important;
+}
+
+.labelName{line-height: 36px;}
+
+.errorTxt{float: right;  font-size: 11px;  color: red;}
+.mr5{margin: 5px 5px 5px 5px;}
+
+.movieList{background-color: #5b5a87;  border-radius: 26px;  padding: 3px 10px 3px 10px;color: white;cursor: pointer;}
+.movieGrid{}
+/* .headerPopUp{height:35px;} */
